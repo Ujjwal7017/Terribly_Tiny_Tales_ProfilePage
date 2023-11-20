@@ -1,40 +1,75 @@
-# Personal Profile Page
+# Responsive Profile Page
 
-This is a personal profile page showcasing your information and social media statistics. The page is designed to be responsive and user-friendly.
+## Overview
+
+This project is a responsive Profile Page that adapts to various screen sizes. It includes components such as the header, profile section, followers/following boxes, posts container, and media queries for responsive design.
+
+## Table of Contents
+
+- [Components](#components)
+- [Plugins](#plugins)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Components
 
-### Header
+### 1. Header
 
-- The header contains the logo, title, and navigation links.
+- **Description**: The header component provides navigation and branding.
+- **Usage**: Included on every page.
 
-### Cover Photo
+### 2. Profile
 
-- A cover photo section with a responsive design.
+- **Description**: The profile section displays user information, bio, and social metrics.
+- **Usage**: Featured on the user's profile page.
 
-### Profile Information
+### 3. Followers Box
 
-- User profile picture and bio.
-- Social media statistics boxes for followers, following, and other relevant metrics.
+- **Description**: Displays the number of followers with a hover effect.
+- **Usage**: Present on the user's profile page.
 
-### Posts
+### 4. Following Box
 
-- A section displaying your posts in a responsive grid.
+- **Description**: Similar to Followers Box, but for the number of users being followed.
+- **Usage**: Found on the user's profile page.
 
-### Instagram Profile Section
+### 5. Posts Container
 
-- A separate section for Instagram profile statistics and a link to view the Instagram profile.
+- **Description**: Container for displaying user posts.
+- **Usage**: On the user's profile page to showcase their posts.
 
-## Responsive Design
+### 6. Media Queries
 
-The profile page is designed to be responsive, adapting to different screen sizes for a better user experience.
+- **Description**: Responsive design adjustments for different screen sizes.
+- **Usage**: Ensures proper display on various devices.
 
-### Media Queries
+## Plugins
 
-- Media queries are used to adjust the layout and styling for screens of different sizes.
+### 1. FontAwesome
 
-## How to Run or Clone the Project
+- **Description**: A library for scalable vector icons.
+- **Usage**: Utilized in the project for various icons.
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/Ujjwal7017/Terribly_Tiny_Tales_ProfilePage
+### 2. Netlify
+
+- **Description**: A cloud platform for hosting and deploying web applications.
+- **Usage**: The project is deployed on Netlify : https://profilepage-app.netlify.app
+
+## Deployment
+
+The project is deployed using Netlify. You can access the live version [here](https://profilepage-app.netlify.app).
+
+To deploy your own version:
+
+1. Fork this repository.
+2. Connect your repository to Netlify.
+3. Set up build commands and deploy settings in the Netlify dashboard.
+
+## Contributing
+
+Contributions are welcome! Feel free to submit pull requests, report issues, or suggest improvements.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
